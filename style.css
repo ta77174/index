@@ -1,0 +1,326 @@
+body,html{
+    width:100%;
+    overflow-x: hidden;
+    background-color: bisque;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    color:black;
+    text-size-adjust: 10pxS;
+
+}
+
+.nav-toggle{
+    display: none;
+    
+}
+
+.bca{
+
+    background-image: url('c837a6_8bdf6d31716e47f28f553df74033ed63_mv2.avif');
+    height:600px;
+    background-size: cover;
+}
+
+.box2{
+    width:100%;
+    text-align: center;
+    margin-bottom:30px;
+    margin-top:30px;
+    font-size: 30px;
+}
+
+.clinet{
+    width:40%;
+    border:2px solid white;
+    float:left;
+    margin-bottom:30px;
+    margin-left:55px;
+    background-color: grey;
+    border-radius: 20px;
+}
+
+.clik{
+   width:75%;
+   margin-top:30px;
+   margin-left:40px;
+   font-size: 18px;
+   margin-bottom: 20px;
+}
+.movi{
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    color:gray ;
+    padding-top:40px;
+}
+
+
+
+.tem{
+    width:30%;
+    height: 500px;
+    padding: 2rem 1rem;
+    position: relative; 
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 8px 11px rgba(0,0,0,0.5);
+    transition: 0.5s ease-in-out;
+    
+}
+
+.tem:hover{
+    transform: translateY(20px);
+}
+
+.tem:before{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,175,151,0.4),rgba(140,200,51,1));
+    z-index: 2;
+    transition: 0.5s all;
+    opacity:0;
+}
+
+.tem:hover:before{
+    opacity: 1;    
+}
+
+.tem img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.tem .info{
+         position: relative;
+         z-index: 3;
+         color:bisque;
+         opacity: 2;
+         transform: translateY(35px);
+         transition: 0.5s all;
+}
+
+.tem:hover .info{
+    opacity: 1;
+    transform: translateY(5px);    
+}
+
+.tem .info h4{
+    margin:0;
+    font-size: 30px;
+    margin-top: 8px;
+    margin-bottom: 28px;
+}
+
+.Featured {
+    width:100%;
+    float:left;
+    margin-top:29px;
+    background-color:burlywood;
+
+}
+
+.cleaning{
+    text-align: center;
+    margin-top:30px;
+    font-size: 30px;
+}
+
+.latch{
+    float:left;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.feat{
+    width:100%;
+    float:left;
+    margin-top:50px;
+    padding-bottom: 20px;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius:20px;
+    
+}
+
+.redr{
+    margin-top:30px;
+    text-align: center;
+    font-size:26px;
+    color:black;
+    
+}
+
+.templ{
+    width:40%;
+    float:left;
+    margin-left:65px;
+    margin-top:30px;
+    padding-bottom: 20px;
+    
+}
+
+.mca{
+    width:100%;
+    float:left;
+    background-size: cover;
+    background-image: url(mv2.avif);
+    height:300px;
+}
+
+.root{
+    text-align: center;
+    color:bisque;
+    margin-top: 20px;
+    font-size:50px;
+}
+
+.drop{
+    color:bisque;
+    font-size: 23px;
+    float:left;
+    margin-left:70px;
+    margin-top: 30px;
+}
+
+.templ img{
+    border-radius: 10px;
+}
+
+
+.templ h1{
+    text-align: center;
+    font-size: 23px;
+}
+
+
+
+.pli{
+    width:100%;
+    height: 500px;
+    background-color:gray ;
+    float:left;
+    color:white;
+    font-size: 26px;
+    margin-top:0px;
+}
+
+.ppi{
+   width:50%;
+   float:left;
+   margin-top:150px;
+   margin-left:30px;
+}
+
+.ppi h4{
+    font-size: 27px;
+    padding-bottom: 10px;
+}
+
+.ppi button{
+    width:30%;
+    float:left;
+    margin-top:20px;
+    color:white;
+    
+}
+
+.plan{
+    width:40%;
+    float:right;
+    height: 400px;
+    margin-right:30px;
+    margin-top:70px;
+    background-color:bisque;
+    border-radius:10px;
+    padding-bottom:40px;
+}
+
+.plan p{
+    text-align: center;
+    margin-top:10px;
+    color:black;
+    font-size: 29px;
+}
+
+.plan h2{
+    text-align: center;
+    font-size: 27px;
+    color:black;
+    margin-top:20px;
+}
+
+.plan h5{
+    text-align: center;
+    font-size: 9px;
+    color:black;
+}
+
+.plan  button{
+    width:50%;
+    margin-left:100px;
+    margin-top:10px;
+
+}
+
+.plan  button::before{
+    color:white;
+}
+
+.plan h4{
+    text-align: center;
+    font-size: 16px;
+    color:black;
+    margin-top:20px;
+}
+
+.mylife{
+    width:100%;
+    float:left;
+}
+
+.mylike{
+    width:100%;
+    display: block;
+    height: 470px;
+}
+
+.legal{
+    width:100%;
+    float:left;
+    background-color:khaki;
+    padding-bottom: 50px;
+}
+
+.lagce{
+   width:20%;
+   float:left;
+   margin-top:50px;
+   margin-left:60px;
+   
+}
+
+.lagce i{
+    font-size: 20px;
+    margin-left:10px;
+}

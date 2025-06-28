@@ -1,0 +1,102 @@
+@media only screen and (max-width:500px){
+    .nav-toggle {
+        display: block;
+        margin-right: 30px;
+    }
+
+    .nav-link{
+        display: none;
+    }
+
+    .clinet{
+        width:80%;
+        padding-block:10px;
+        margin-left:30px;
+    }
+
+    .movi{
+         display: block;
+         
+    }
+
+    .tem{
+        width:80%;
+        margin-left:30px;
+        margin-top: 30px;
+    }
+    
+    .templ h1{
+        width:100%;
+        text-align: center;
+
+    }
+
+    .drop{
+        font-size: 16px;
+        text-align: center;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .mca{
+        height: 500px;
+        text-align: center;
+    }
+
+    .pli{
+        height: 1000px;
+    }
+    .ppi{
+        width:100%;
+        margin-top: 50px;
+        margin-left: 9px;
+    }
+
+    .ppi button{
+        width:35%;
+        margin-left:50px;
+    }
+
+    .plan{
+        width:87%;
+        height: 490px;
+        margin-right:28px;
+    }
+
+    .plan h4{
+        font-size: 20px;
+    }
+
+    .lagce{
+        width:100%;
+    }
+}
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    transition: background-color 0.3s ease;
+  }
+  
+  .floating-btn:hover {
+    background-color: #0056b3;
+  }
+
+
+
+  .floating-btn a{
+    color:white;
+  }
+
+  .floating-btn a:hover{
+    transform: rotate(90deg);
+    transition-duration: 0.5s;
+  }
